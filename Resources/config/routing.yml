@@ -1,0 +1,11 @@
+hello_world_homepage:
+    path:     /
+    defaults: { _controller: HelloWorldBundle:Default:index }
+
+hello_world:
+    path:     /helloworld/{name}
+    defaults: { _controller: HelloWorldBundle:HelloWorld:helloworld }
+
+hello_world_default:
+    path:     /helloworld/
+    defaults: { _controller: HelloWorldBundle:HelloWorld:helloworld }
